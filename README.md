@@ -1,3 +1,5 @@
+![DimStorage Configurator](src/main/resources/icon.png)
+
 # DimStorage Configurator
 
 An unofficial addon for [DimStorage](https://www.curseforge.com/minecraft/mc-mods/dimstorage) on **Minecraft 1.21.1 / NeoForge**.

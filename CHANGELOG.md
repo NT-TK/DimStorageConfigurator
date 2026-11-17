@@ -2,6 +2,7 @@
 
 ## 1.0.1
 
+- Added a 256x256 mod icon based on the Dimensional Configurator.
 - Added multi-language support:
   English, Japanese, Simplified Chinese, Traditional Chinese, Korean, French,
   German, Spanish, Italian, Brazilian Portuguese, Russian, Turkish, Polish,
