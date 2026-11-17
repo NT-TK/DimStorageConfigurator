@@ -86,11 +86,11 @@ tasks.named('jar', Jar).configure {
     manifest {
         attributes([
             'Specification-Title'     : 'dimstorageconfigurator',
-            'Specification-Vendor'    : 'Edivad99',
+            'Specification-Vendor'    : 'NT-TK',
             'Specification-Version'   : '1',
             'Implementation-Title'    : 'dimstorageconfigurator',
             'Implementation-Version'  : project.version,
-            'Implementation-Vendor'   : 'Edivad99',
+            'Implementation-Vendor'   : 'NT-TK',
         ])
     }
 }

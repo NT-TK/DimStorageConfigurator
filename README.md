@@ -2,6 +2,8 @@
 
 # DimStorage Configurator
 
+by **NT-TK**
+
 An unofficial addon for [DimStorage](https://www.curseforge.com/minecraft/mc-mods/dimstorage) on **Minecraft 1.21.1 / NeoForge**.
 
 This mod adds the **Dimensional Configurator**, an item that copies the settings of a DimChest or DimTank and applies them to another one.
@@ -88,6 +90,11 @@ Requirements: JDK 21.
 ```
 
 The mod jar is generated in `build/libs/`.
+
+## Credits
+
+- Author: **NT-TK**
+- DimStorage and EdivadLib: **Edivad99**
 
 ## License
 

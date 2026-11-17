@@ -7,7 +7,7 @@ license = "MIT"
   version = "${mod_version}"
   displayName = "DimStorage Configurator"
   logoFile = "icon.png"
-  authors = "DimStorage Configurator Addon"
+  authors = "NT-TK"
   description = "An addon for DimStorage that adds the Dimensional Configurator, an item that can copy and apply the settings of DimChests and DimTanks."
 
 [[dependencies.dimstorageconfigurator]]
