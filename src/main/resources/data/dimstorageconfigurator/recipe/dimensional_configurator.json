@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "dimstorage:dim_core"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " i ",
+    "rdr",
+    " i "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dimstorageconfigurator:dimensional_configurator"
+  }
+}

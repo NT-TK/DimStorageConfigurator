@@ -1,0 +1,20 @@
+{
+  "itemGroup.dimstorageconfigurator": "Конфигуратор DimStorage",
+  "item.dimstorageconfigurator.dimensional_configurator": "Пространственный конфигуратор",
+  "gui.dimstorageconfigurator.frequency": "Частота:",
+  "gui.dimstorageconfigurator.owner": "Владелец:",
+  "gui.dimstorageconfigurator.locked": "Заблокировано:",
+  "gui.dimstorageconfigurator.auto_eject": "Авто-выброс:",
+  "gui.dimstorageconfigurator.yes": "Да",
+  "gui.dimstorageconfigurator.no": "Нет",
+  "message.dimstorageconfigurator.config_stored": "Сохранённая конфигурация",
+  "message.dimstorageconfigurator.config_copied": "Конфигурация скопирована",
+  "message.dimstorageconfigurator.config_applied": "Конфигурация применена",
+  "message.dimstorageconfigurator.config_cleared": "Сохранённая конфигурация удалена",
+  "message.dimstorageconfigurator.config_copy_hint": "ПКМ по блоку DimStorage, чтобы скопировать его конфигурацию",
+  "message.dimstorageconfigurator.config_apply_hint": "Shift + ПКМ по блоку DimStorage, чтобы применить конфигурацию",
+  "message.dimstorageconfigurator.config_clear_hint": "Shift + ПКМ в воздух, чтобы очистить",
+  "message.dimstorageconfigurator.config_disabled": "Изменение конфигурации отключено на этом сервере",
+  "message.dimstorageconfigurator.config_empty": "Конфигурация не сохранена",
+  "message.dimstorageconfigurator.config_access_denied": "Доступ запрещён!"
+}

@@ -1,0 +1,20 @@
+{
+  "itemGroup.dimstorageconfigurator": "DimStorage 配置器",
+  "item.dimstorageconfigurator.dimensional_configurator": "维度配置器",
+  "gui.dimstorageconfigurator.frequency": "频率：",
+  "gui.dimstorageconfigurator.owner": "所有者：",
+  "gui.dimstorageconfigurator.locked": "锁定：",
+  "gui.dimstorageconfigurator.auto_eject": "自动输出：",
+  "gui.dimstorageconfigurator.yes": "是",
+  "gui.dimstorageconfigurator.no": "否",
+  "message.dimstorageconfigurator.config_stored": "已保存的配置",
+  "message.dimstorageconfigurator.config_copied": "已复制配置",
+  "message.dimstorageconfigurator.config_applied": "已应用配置",
+  "message.dimstorageconfigurator.config_cleared": "已清除保存的配置",
+  "message.dimstorageconfigurator.config_copy_hint": "右键点击 DimStorage 方块复制其配置",
+  "message.dimstorageconfigurator.config_apply_hint": "Shift + 右键点击 DimStorage 方块应用配置",
+  "message.dimstorageconfigurator.config_clear_hint": "Shift + 右键点击空气清除配置",
+  "message.dimstorageconfigurator.config_disabled": "此服务器已禁用配置修改",
+  "message.dimstorageconfigurator.config_empty": "没有保存的配置",
+  "message.dimstorageconfigurator.config_access_denied": "访问被拒绝！"
+}

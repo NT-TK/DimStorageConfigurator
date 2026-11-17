@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "MIT"
+
+[[mods]]
+  modId = "dimstorageconfigurator"
+  version = "${mod_version}"
+  displayName = "DimStorage Configurator"
+  authors = "DimStorage Configurator Addon"
+  description = "An addon for DimStorage that adds the Dimensional Configurator, an item that can copy and apply the settings of DimChests and DimTanks."
+
+[[dependencies.dimstorageconfigurator]]
+  modId = "neoforge"
+  type = "required"
+  versionRange = "${neo_version_range}"
+  ordering = "NONE"
+  side = "BOTH"
+[[dependencies.dimstorageconfigurator]]
+  modId = "minecraft"
+  type = "required"
+  versionRange = "${minecraft_version_range}"
+  ordering = "NONE"
+  side = "BOTH"
+[[dependencies.dimstorageconfigurator]]
+  modId = "dimstorage"
+  type = "required"
+  versionRange = "${dimstorage_version_range}"
+  ordering = "AFTER"
+  side = "BOTH"
+[[dependencies.dimstorageconfigurator]]
+  modId = "edivadlib"
+  type = "required"
+  versionRange = "${edivadlib_version_range}"
+  ordering = "AFTER"
+  side = "BOTH"

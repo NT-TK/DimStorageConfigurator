@@ -1,0 +1,20 @@
+{
+  "itemGroup.dimstorageconfigurator": "Configurador DimStorage",
+  "item.dimstorageconfigurator.dimensional_configurator": "Configurador dimensional",
+  "gui.dimstorageconfigurator.frequency": "Frequência:",
+  "gui.dimstorageconfigurator.owner": "Proprietário:",
+  "gui.dimstorageconfigurator.locked": "Bloqueado:",
+  "gui.dimstorageconfigurator.auto_eject": "Ejeção automática:",
+  "gui.dimstorageconfigurator.yes": "Sim",
+  "gui.dimstorageconfigurator.no": "Não",
+  "message.dimstorageconfigurator.config_stored": "Configuração armazenada",
+  "message.dimstorageconfigurator.config_copied": "Configuração copiada",
+  "message.dimstorageconfigurator.config_applied": "Configuração aplicada",
+  "message.dimstorageconfigurator.config_cleared": "Configuração armazenada apagada",
+  "message.dimstorageconfigurator.config_copy_hint": "Clique com o botão direito em um bloco DimStorage para copiar sua configuração",
+  "message.dimstorageconfigurator.config_apply_hint": "Shift + clique com o botão direito em um bloco DimStorage para aplicar a configuração",
+  "message.dimstorageconfigurator.config_clear_hint": "Shift + clique com o botão direito no ar para limpar",
+  "message.dimstorageconfigurator.config_disabled": "A configuração está desativada neste servidor",
+  "message.dimstorageconfigurator.config_empty": "Nenhuma configuração armazenada",
+  "message.dimstorageconfigurator.config_access_denied": "Acesso negado!"
+}

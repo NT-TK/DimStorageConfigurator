@@ -1,0 +1,96 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'net.neoforged.moddev' version "$mod_dev_gradle"
+}
+
+version = "$minecraft_version-$mod_version"
+group = 'edivad.dimstorageconfigurator'
+base.archivesName = 'DimStorageConfigurator'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+neoForge {
+    enable {
+        version = project.neo_version
+    }
+
+    validateAccessTransformers = true
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('runs/client')
+        }
+
+        server {
+            server()
+            gameDirectory = project.file('runs/server')
+            programArgument '--nogui'
+        }
+    }
+
+    mods {
+        dimstorageconfigurator {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+repositories {
+    maven {
+        name 'Modrinth'
+        url 'https://api.modrinth.com/maven'
+    }
+    maven {
+        name 'CurseForge'
+        url 'https://www.cursemaven.com'
+    }
+}
+
+dependencies {
+    implementation "maven.modrinth:dimstorage:$dimstorage_version"
+    implementation "curse.maven:edivadlib-638508:$edivadlib_id"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs.addAll(['-Xmaxerrs', '100000'])
+    options.encoding = 'UTF-8'
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+        minecraft_version        : minecraft_version,
+        minecraft_version_range  : minecraft_version_range,
+        neo_version              : neo_version,
+        neo_version_range        : neo_version_range,
+        loader_version_range     : loader_version_range,
+        mod_version              : mod_version,
+        dimstorage_version_range : dimstorage_version_range,
+        edivadlib_version_range  : edivadlib_version_range,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+            'Specification-Title'     : 'dimstorageconfigurator',
+            'Specification-Vendor'    : 'Edivad99',
+            'Specification-Version'   : '1',
+            'Implementation-Title'    : 'dimstorageconfigurator',
+            'Implementation-Version'  : project.version,
+            'Implementation-Vendor'   : 'Edivad99',
+        ])
+    }
+}

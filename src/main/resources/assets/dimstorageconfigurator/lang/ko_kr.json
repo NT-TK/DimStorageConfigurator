@@ -1,0 +1,20 @@
+{
+  "itemGroup.dimstorageconfigurator": "DimStorage 구성기",
+  "item.dimstorageconfigurator.dimensional_configurator": "디멘셔널 컨피규레이터",
+  "gui.dimstorageconfigurator.frequency": "주파수:",
+  "gui.dimstorageconfigurator.owner": "소유자:",
+  "gui.dimstorageconfigurator.locked": "잠금:",
+  "gui.dimstorageconfigurator.auto_eject": "자동 배출:",
+  "gui.dimstorageconfigurator.yes": "예",
+  "gui.dimstorageconfigurator.no": "아니요",
+  "message.dimstorageconfigurator.config_stored": "저장된 설정",
+  "message.dimstorageconfigurator.config_copied": "설정을 복사했습니다",
+  "message.dimstorageconfigurator.config_applied": "설정을 적용했습니다",
+  "message.dimstorageconfigurator.config_cleared": "저장된 설정을 지웠습니다",
+  "message.dimstorageconfigurator.config_copy_hint": "DimStorage 블록을 우클릭하여 설정 복사",
+  "message.dimstorageconfigurator.config_apply_hint": "Shift + 우클릭으로 DimStorage 블록에 설정 적용",
+  "message.dimstorageconfigurator.config_clear_hint": "Shift + 공중 우클릭으로 설정 지우기",
+  "message.dimstorageconfigurator.config_disabled": "이 서버에서는 설정 변경이 비활성화되어 있습니다",
+  "message.dimstorageconfigurator.config_empty": "저장된 설정이 없습니다",
+  "message.dimstorageconfigurator.config_access_denied": "접근이 거부되었습니다!"
+}

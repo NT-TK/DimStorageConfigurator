@@ -1,0 +1,20 @@
+{
+  "itemGroup.dimstorageconfigurator": "Konfigurator DimStorage",
+  "item.dimstorageconfigurator.dimensional_configurator": "Konfigurator wymiarowy",
+  "gui.dimstorageconfigurator.frequency": "Częstotliwość:",
+  "gui.dimstorageconfigurator.owner": "Właściciel:",
+  "gui.dimstorageconfigurator.locked": "Zablokowane:",
+  "gui.dimstorageconfigurator.auto_eject": "Automatyczne wyrzucanie:",
+  "gui.dimstorageconfigurator.yes": "Tak",
+  "gui.dimstorageconfigurator.no": "Nie",
+  "message.dimstorageconfigurator.config_stored": "Zapisana konfiguracja",
+  "message.dimstorageconfigurator.config_copied": "Skopiowano konfigurację",
+  "message.dimstorageconfigurator.config_applied": "Zastosowano konfigurację",
+  "message.dimstorageconfigurator.config_cleared": "Usunięto zapisaną konfigurację",
+  "message.dimstorageconfigurator.config_copy_hint": "Kliknij prawym przyciskiem na blok DimStorage, aby skopiować jego konfigurację",
+  "message.dimstorageconfigurator.config_apply_hint": "Shift + kliknij prawym przyciskiem na blok DimStorage, aby zastosować konfigurację",
+  "message.dimstorageconfigurator.config_clear_hint": "Shift + kliknij prawym przyciskiem w powietrze, aby usunąć",
+  "message.dimstorageconfigurator.config_disabled": "Konfiguracja jest wyłączona na tym serwerze",
+  "message.dimstorageconfigurator.config_empty": "Brak zapisanej konfiguracji",
+  "message.dimstorageconfigurator.config_access_denied": "Odmowa dostępu!"
+}

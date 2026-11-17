@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a bug or crash
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include the full game log and the versions of Minecraft, NeoForge, DimStorage, EdivadLib, and DimStorage Configurator.
+  - type: input
+    id: mod-version
+    attributes:
+      label: DimStorage Configurator version
+      placeholder: 1.0.1
+    validations:
+      required: true
+  - type: input
+    id: dimstorage-version
+    attributes:
+      label: DimStorage version
+      placeholder: 9.1.1
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and how to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log / crash report
+      render: text
+    validations:
+      required: false

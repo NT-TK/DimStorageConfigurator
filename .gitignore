@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# NeoForge / Minecraft run directories
+runs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
